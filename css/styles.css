@@ -40,7 +40,7 @@ p {
 }
 
 .navbar-nav {
-  padding-left: 49rem;
+padding-right: 50rem;
 }
 
 .nav-item {
@@ -98,7 +98,7 @@ p {
 }
 
 .carousel-item {
-  padding: 7% 15%;  
+  padding: 7% 15%;
 }
 
 .testimonials-images {
