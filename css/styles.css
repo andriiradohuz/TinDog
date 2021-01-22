@@ -107,10 +107,19 @@ padding-right: 50rem;
   margin: 20px;
 }
 
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
 #press {
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
 
 .press-logo {
