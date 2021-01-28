@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -39,10 +39,6 @@ p {
   padding: 0 0 4.0rem;
 }
 
-/* .navbar-nav {
-padding-right: 50rem;
-} */
-
 .nav-item {
   padding: 0 18px;
 }
@@ -69,12 +65,15 @@ padding-right: 50rem;
 .title-image {
   width: 80%;
   transform: rotate(25deg);
-  margin: 5% 10%;
+  position: absolute;
+  right: 3%;
 }
 
 /* Feature Section */
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box{
