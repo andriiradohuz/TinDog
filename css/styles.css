@@ -2,6 +2,10 @@ body {
   font-family: "Montserrat";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #title {
   background-color: #ff4c68;
   color: #fff;
@@ -44,7 +48,7 @@ p {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   font-family: "Ubuntu";
 
 }
@@ -161,5 +165,5 @@ p {
 }
 
 .social-icon {
-  margin: 20px 10px; 
+  margin: 20px 10px;
 }
