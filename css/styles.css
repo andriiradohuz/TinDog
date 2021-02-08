@@ -29,14 +29,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Section */
-
 .colored-section {
   background-color: #ff4c68;
   color: #fff;
 }
 
 .white-section {
-background-color: #fff;
+  background-color: #fff;
 }
 
 p {
@@ -49,6 +48,12 @@ p {
   padding: 0 0 4.0rem;
 }
 
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
 .nav-item {
   padding: 0 18px;
 }
@@ -58,21 +63,20 @@ p {
   font-family: 'Quicksand', sans-serif;
 }
 
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
 /* Download button */
 .download-button {
   margin: 5% 3% 5% 0%;
 }
 
 /* Title section */
-#title .container-fluid {
+#title {
+  background-color: #ff4c68;
   padding: 3% 15%;
   text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* Title image */
@@ -85,7 +89,6 @@ p {
 
 /* Feature Section */
 #features {
-
   position: relative;
 }
 
@@ -94,7 +97,7 @@ p {
 }
 
 .feature-box {
-  padding: 3%;
+  padding: 4, 5%;
 }
 
 .icon {
